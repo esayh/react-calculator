@@ -1,0 +1,25 @@
+.results {
+   height: 30%;
+   position: relative;
+   background: var(--bg);
+   border-top: 3px solid rgba(0, 0, 0, .05);
+   border-bottom: 3px solid rgba(0, 0, 0, .05);
+}
+
+.upper-value {
+   position: absolute;
+   text-align: right;
+   bottom: 30%;
+   right: 5%;
+   font-size: 32px;
+   color: var(--color-text);
+}
+
+.lower-value {
+   position: absolute;
+   text-align: right;
+   bottom: 2%;
+   right: 5%;
+   font-size: 32px;
+   color: var(--color-text);
+}
