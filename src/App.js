@@ -71,7 +71,7 @@ class App extends Component {
 			})
 		} else if (this.state.operation === 'divide') {
 			this.setState({
-				display: Number(prevNum) / Number(currNum),
+				display: Math.round(Number(prevNum) / Number(currNum)),
 			})
 		}
 	}
